@@ -1,14 +1,16 @@
 # cats-informations
 
+Sample interface listing cats using Vue.js and Bootstrap
+
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles
 ```
 npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run
+- http://localhost:8080 in your favorite browser
