@@ -1,7 +1,7 @@
 <template>
   <div class="cardList">
     <b-card-group deck>
-      <div class="cats" v-for="(cat, index) in cats">
+      <div class="cats" v-for="(cat, index) in cats" :key="cat.id">
           <b-card
               tag="article"
               style="max-width: 20rem;"
@@ -32,7 +32,7 @@
             </b-card>
       </div>
      </b-card-group>
-      
+
   </div>
 </template>
 
